@@ -1,0 +1,8 @@
+- sorce module
+- test module
+    - name should be test_module_name
+    - test_function: test_function_name
+    - the test module should contain __init__.py, otherwise will generate error
+    - import the souce module in the test module
+- run the test: pytest test_file.py
+    - pytest tests/test_app.py
