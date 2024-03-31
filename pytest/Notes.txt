@@ -1,0 +1,28 @@
+- url: https://www.youtube.com/watch?v=cHYq1MRoyI0&t=16s
+- time: 31:14
+- sorce module
+- test module
+    - name should be test_module_name
+    - test_function: test_function_name
+    - the test module should contain __init__.py, otherwise will generate error
+    - import the souce module in the test module
+- run the test: pytest test_file.py
+    - pytest tests/test_app.py
+
+- setup and teardown methods
+    - setup method run before the test code
+    - teardown mehod run after the tests are run
+    - to see the prints in the setting up and tearing down methods we need to use
+        - pytest test/test_class_app.py -s
+
+- pytest.fixture
+    - @pytest.fixture
+    - define a function that can be used in different test fucntions
+
+- global context
+    - conftest.py
+    - can be used in multiple test files
+
+- pytest marking & parameterizing
+    - 
+    
