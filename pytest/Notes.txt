@@ -24,5 +24,27 @@
     - can be used in multiple test files
 
 - pytest marking & parameterizing
-    - 
+    - makring a test as slow
+        - @pytest.mark.slow
+        - can run only the slow test -> pytest /test/test_app.py -m slow
     
+- skip test
+    - @pytest.mark.skip(reason='reature is broken')
+
+- test fail
+    - @pytest.mark.xfail(reason=='can't divide by 0')
+    - say 1 xfail in the test report
+
+- parameterize
+    - check multiple values to a fucntion 
+    - @pytest.mark.parametrize("side_length, expected_area", [(2, 4), (5, 25), (9, 81), (10, 100)])
+
+- Mocking
+    - isolate the system that is using for testing
+    - use cases
+        - testing on a web-api, at the time of testing we don't want to use the api 
+            - may be down at the time of testing
+            - need to incure the cost 
+            - but we know the o/p of the api
+
+        
