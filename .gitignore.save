@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+.__pycache__
+distillbert-base-uncased-finetuned-emotion
+mlruns
