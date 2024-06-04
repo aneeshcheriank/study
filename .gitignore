@@ -2,3 +2,5 @@
 .__pycache__
 distilbert-base-uncased-finetuned-emotion/
 mlruns/
+doc/
+out/
