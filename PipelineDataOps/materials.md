@@ -15,3 +15,5 @@
             'body': json.dumps('Hello from Lambda!')
         }
     ```
+## AWS data ingestion pipeline
+
