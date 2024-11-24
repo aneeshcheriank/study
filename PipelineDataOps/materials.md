@@ -15,3 +15,10 @@
             'body': json.dumps('Hello from Lambda!')
         }
     ```
+## Step Function
+- Lambda 1 -> output -> (input to) Lambda 2
+- to chain the functions -> Step Function
+
+## Query Databricks Pipeline
+- Azure databricks
+- 
