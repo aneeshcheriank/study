@@ -27,3 +27,8 @@
 
 ## Transforming Data in Transit
 - ![alt text](./images/image_1.png)
+
+AWS Batch
+
+## Serverless AI Data Engineering Pipeline
+![alt text](./images/image_2.png)
