@@ -15,10 +15,15 @@
             'body': json.dumps('Hello from Lambda!')
         }
     ```
-## Step Function
-- Lambda 1 -> output -> (input to) Lambda 2
-- to chain the functions -> Step Function
 
 ## Query Databricks Pipeline
 - Azure databricks
-- 
+
+## Data ingestion pipeline (AWS)
+![alt text](./images/image.png)
+
+## AWS Stepfunctions
+- orchestrating jobs
+
+## Transforming Data in Transit
+- ![alt text](./images/image_1.png)
